@@ -1,0 +1,15 @@
+# Arquivos Binários e Executáveis
+main.exe
+a.out
+
+# Arquivos de Objeto
+*.o
+
+# Arquivos de Backup ou Temporários
+*~
+*.bak
+
+# Pastas de Debug/Compilação Comuns (se aplicável)
+/build
+/Debug
+/Release

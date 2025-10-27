@@ -1,0 +1,10 @@
+distanceInKM = 50
+timeInMinutes = 300.0
+demand = 1.0
+offer = 10.0
+geographicZoneID = 4
+peakHourFactor = 14
+eventOrHolidayFactor = 1.2
+weatherFactor = 1.0
+trafficFactor = 1.3
+fuelPrice = 400
