@@ -9,7 +9,7 @@ struct rideData{
     float demand;
     float offer;
     float geographicZoneFactor;
-    float peakHourFactor;s
+    float peakHourFactor;
     float eventOrHolidayFactor;
     float weatherFactor;
     float trafficFactor;
@@ -18,7 +18,7 @@ struct rideData{
 
 
 float getZoneFactor(int zoneId) {
-    FILE *f = fopen("Arquivo/zonas.txt", "r");
+    FILE *f = fopen("Arquivos/zonas.txt", "r");
     if (f == NULL) {
         fprintf(stderr, "Erro ao abrir 'zonas.txt'. Retornando fator padrao...\n");
         return 1.0f; 
