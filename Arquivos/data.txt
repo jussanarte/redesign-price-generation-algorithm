@@ -1,7 +1,7 @@
 distanceInKM = 200
 timeInMinutes = 300.0
-demand = 4.0
-offer = 10.0
+demand = 10000.0
+offer = 1000000.0
 geographicZoneID = 4
 peakHourFactor = 11
 eventOrHolidayFactor = 1.2
