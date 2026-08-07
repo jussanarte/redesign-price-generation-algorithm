@@ -13,3 +13,12 @@ a.out
 /build
 /Debug
 /Release
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.user
+
+# CLion / CMake
+/cmake-build-*/

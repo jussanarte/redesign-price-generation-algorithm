@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "functions.c"
+#include "functions.h"
 
 int main() {
 
@@ -10,6 +9,6 @@ int main() {
 	printf("Demand: %.2f\n", data.demand);
 	printf("Fuel price: %.2f AOA\n", data.fuelPrice);
 	printf("\nTotal price: %.2f AOA\n", getFinalPrice(data));
-   
+
     return 0;
 }
